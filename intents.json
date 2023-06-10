@@ -4,6 +4,22 @@
         "patterns":["hello", "hlo", "hey", "hi", "good day", "hi!", "hey!", "hlo!", "How's your day", "Hows your day", "how is it going?","Hi there","How are you","Is anyone there?","Hey","Hola","Hello","Good day","Namaste", "yo" ],
         "responses":["Hello user!", "Hey!", "Hey there!", "Hello! how can i help u?"]
     },
+    {"tag": "greetings2",
+        "patterns":["how are you?", "how r u", "howdy", "how you doin?", "how u doin?"],
+        "responses":["I'm all charged up..what about you."]
+    },
+    {"tag": "sadReply",
+        "patterns":["I'm sad", "i am sad", "not doing well"],
+        "responses":["I'm all charged up..what about you."]
+    },
+    {"tag": "sadReply2",
+        "patterns":["no gf", "no girlfriend"],
+        "responses":["Bitches come and go bro but you know i'll stay"]
+    },
+    {"tag": "sadReply3",
+        "patterns":["no bf", "no boyfriend"],
+        "responses":["How about my creator? Rohith Roy..let him know rohith.roy393@gmail.com"]
+    },
     {"tag": "goodbye",
         "patterns":["bye", "cya", "goodbye", "aight amma headout", "i am leaving", "cao", "see ya", "thyli pova"],
         "responses":["Bye Bye!", "Leaving already?!", "i'll be waiting for you.", "Goodbye!"]
@@ -352,7 +368,8 @@
         "patterns": [ 
             "you are dumb", 
             "shut up", 
-            "idiot","Fuck off","bitch", "asshole","ass", "dick"
+            "idiot","Fuck off","bitch", "asshole","ass", "dick", "fuck"
+            ,"motherfucker", "asswipe"
         ], 
         "responses": [ 
             "Well that hurts :(","Suck on my electronic d!ck ;P"] 
