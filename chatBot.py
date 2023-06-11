@@ -52,6 +52,4 @@ def response(intent_list, intents_json):
     return result
 
 def responder(message):
-    intl = predictor(message)
-    res = response(intl, intents)
-    return res
+    return response(predictor(message), intents)
